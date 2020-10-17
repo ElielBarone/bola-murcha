@@ -1,0 +1,12 @@
+#quem-vai{
+    min-height: 400px;
+}
+
+body{
+    padding-top:20px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100px;
+}

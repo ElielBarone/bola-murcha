@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Bola Murcha</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="assets/sorteio.js"></script>
+    <link rel="stylesheet" href="assets/sorteio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mb-2">
+            <div class="col-sm-2 col-md-1 form-group" >
+                <img class="logo" src="assets/logo.jpg" />
+            </div>
+            <div class="col-sm-10 col-md-11 form-group" >
+                <h3>Bola Murcha</h3>
+                <p>Sorteio de times</p>
+            </div>
+
+        </div>
+        <div class="row mb-2">
+            <div class="col-sm-12 col-md-4 form-group" >
+                <label for="quem-vai" >Participantes</label>
+                <textarea class="form-control" id="quem-vai" ></textarea>
+            </div>
+
+            <div class="col-sm-12 col-md-4 mb-2" >
+              <div class="alert alert-primary" id="timea">                
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 mb-2" >
+              <div class="alert alert-danger" id="timeb">                
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <button class="btn btn-primary" onclick="sortear()">Sortear</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+     
+</body>
+
+</html>
